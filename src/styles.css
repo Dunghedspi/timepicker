@@ -1,0 +1,26 @@
+div.container-canvas{
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333131;
+    opacity: 0.8;
+    z-index: 1000;
+    display: none;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+input#time{
+    padding: 10px 10px;
+    width: 8%;
+    cursor: pointer;
+}
+div.canvas-input{
+ position: relative;  
+}
+img#clock{
+    position: absolute;
+    left: 100px;
+    top: 6px;
+    cursor: pointer;
+}
